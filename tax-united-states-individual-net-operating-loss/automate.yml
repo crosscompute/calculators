@@ -1,0 +1,131 @@
+---
+crosscompute: 0.9.4
+input:
+  variables:
+    - id: year
+      view: number
+      path: variables.dictionary
+    - id: adjusted_gross_income
+      view: number
+      path: variables.dictionary
+    - id: standard_or_itemized_deductions
+      view: number
+      path: variables.dictionary
+    - id: non_business_capital_losses_before_limitation
+      view: number
+      path: variables.dictionary
+    - id: non_business_capital_gains_before_exclusion
+      view: number
+      path: variables.dictionary
+    - id: non_business_deductions
+      view: number
+      path: variables.dictionary
+    - id: non_business_income_other_than_capital_gains
+      view: number
+      path: variables.dictionary
+    - id: business_capital_losses_before_limitation
+      view: number
+      path: variables.dictionary
+    - id: business_capital_gains_before_exclusion
+      view: number
+      path: variables.dictionary
+    - id: schedule_d_loss_line_16
+      view: number
+      path: variables.dictionary
+    - id: schedule_d_loss_line_21
+      view: number
+      path: variables.dictionary
+    - id: section_1202_exclusion
+      view: number
+      path: variables.dictionary
+    - id: nol_deduction_for_losses_from_other_years
+      label: NOL Deduction for Losses from Other Years
+      view: number
+      path: variables.dictionary
+  templates:
+    - path: input.md
+output:
+  variables:
+    - id: net_operating_loss
+      view: number
+      path: variables.dictionary
+    - id: line1
+      view: number
+      path: variables.dictionary
+    - id: line2
+      view: number
+      path: variables.dictionary
+    - id: line3
+      view: number
+      path: variables.dictionary
+    - id: line4
+      view: number
+      path: variables.dictionary
+    - id: line5
+      view: number
+      path: variables.dictionary
+    - id: line6
+      view: number
+      path: variables.dictionary
+    - id: line7
+      view: number
+      path: variables.dictionary
+    - id: line8
+      view: number
+      path: variables.dictionary
+    - id: line9
+      view: number
+      path: variables.dictionary
+    - id: line10
+      view: number
+      path: variables.dictionary
+    - id: line11
+      view: number
+      path: variables.dictionary
+    - id: line12
+      view: number
+      path: variables.dictionary
+    - id: line13
+      view: number
+      path: variables.dictionary
+    - id: line14
+      view: number
+      path: variables.dictionary
+    - id: line15
+      view: number
+      path: variables.dictionary
+    - id: line16
+      view: number
+      path: variables.dictionary
+    - id: line17
+      view: number
+      path: variables.dictionary
+    - id: line18
+      view: number
+      path: variables.dictionary
+    - id: line19
+      view: number
+      path: variables.dictionary
+    - id: line20
+      view: number
+      path: variables.dictionary
+    - id: line21
+      view: number
+      path: variables.dictionary
+    - id: line22
+      view: number
+      path: variables.dictionary
+    - id: line23
+      view: number
+      path: variables.dictionary
+  templates:
+    - path: output.md
+batches:
+  - folder: batches/standard
+scripts:
+  - path: run.py
+display:
+  pages:
+    - id: output
+      configuration:
+        design: none

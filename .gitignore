@@ -1,0 +1,44 @@
+# vim
+*.sw[op]
+*~
+# python
+*.egg*
+*.py[co]
+.cache
+.coverage
+.ipynb_checkpoints
+.jupyter_ystore.db
+.pytest_cache
+.tox
+__pycache__
+build/
+dist/
+# transient
+*.log
+*.tmp
+*_data
+.DS_Store
+.~lock.*
+# sqlite
+*.sqlite
+*.sqlite-journal
+# crosscompute
+batches/
+datasets/
+debug/
+output/
+prints/
+runs/
+tests/
+.*.py
+.run.*
+.containerfile
+.containerignore
+# data
+*.csv
+*.ipynb.py
+*.jpg
+*.png
+*.txt
+*.xlsx
+tokens.yml
