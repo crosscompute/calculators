@@ -91,5 +91,5 @@ Enter any gain excluded under section 1202 on the sale or exchange of qualified 
 
 ## NOL Deduction
 
-Enter your net operating loss deduction, if you claimed a net operating loss deduction for losses from other years on this tax return.
+Enter your net operating loss deduction, if you claimed a net operating loss deduction for losses from other years on this tax return. Note that starting in tax year 2021, your net operating loss deduction is limited by 80% of your taxable income. For example, if your taxable income is $100k, you can claim a maximum NOl deduction of $80k, which leaves a taxable income of $20k.
 {nol_deduction_for_losses_from_other_years}
