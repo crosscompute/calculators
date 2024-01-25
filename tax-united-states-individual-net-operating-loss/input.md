@@ -30,13 +30,13 @@ Find your non-business capital gains on form 1040 schedule D line 16. If it is n
 ## Non-Business Deductions
 
 Enter deductions that aren't connected with a trade or business. They include:
+- The **STANDARD DEDUCTION** [see form 1040 to see if you took the standard deduction];
+- Most itemized deductions (except for casualty and theft losses resulting from a federally declared disaster and state income tax on trade or business income);
 - IRA deductions;
 - Health savings account deduction;
 - Archer MSA deduction;
 - Deductions for payments on behalf of a self-employed individual to a SEP, SIMPLE, or qualified plan;
 - Alimony paid;
-- Most itemized deductions (except for casualty and theft losses resulting from a federally declared disaster and state income tax on trade or business income);
-- **Standard deduction** [see form 1040 to see if you took the standard deduction];
 - Non-business charitable contributions [see form 1040 if you took the standard deduction or schedule A if you took itemized deductions].
 
 Don't include any business deductions. These are deductions that are connected with a trade or business. They include:
