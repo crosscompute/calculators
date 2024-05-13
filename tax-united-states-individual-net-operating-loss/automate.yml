@@ -2,7 +2,7 @@
 crosscompute: 0.9.4
 name: Net Operating Loss Calculator for Individuals
 slug: net-operating-loss-calculator-individual
-description: Compute your Net Operating Loss for a given tax year in the United States according to Form 1045 Schedule A
+description: Compute your Net Operating Loss for a given tax year in the USA according to IRS Form 1045 Schedule A
 input:
   variables:
     - id: year

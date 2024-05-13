@@ -1,6 +1,6 @@
 # Net Operating Loss Calculator
 
-Use this calculator to compute your Net Operating Loss for a given tax year in the United States according to [Form 1045 Schedule A](https://www.irs.gov/forms-pubs/about-form-1045).
+Use this calculator to compute your Net Operating Loss for a given tax year in the USA according to [IRS Form 1045 Schedule A](https://www.irs.gov/forms-pubs/about-form-1045).
 
 For more details on business and nonbusiness income and deductions, see [IRS Publication 536](https://www.irs.gov/forms-pubs/about-publication-536).
 
