@@ -1,0 +1,4 @@
+---
+crosscompute: 0.9.4
+imports:
+  - path: tax-united-states-individual-net-operating-loss/automate.yaml
